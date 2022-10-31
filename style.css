@@ -22,8 +22,8 @@ body, html{
 .qrcode{
     overflow: hidden;
     border-radius: 25px;
-    width: 60%;
-    height: 40%;
+      width: 90%;
+    height: 56%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -41,7 +41,7 @@ body, html{
 }
 .texto h2{
    color: hsl(218, 44%, 22%);
-   font-size:15px;
+   font-size:18px;
    font-weight: 700;
    display: flex;
    flex-wrap: wrap;
