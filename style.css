@@ -80,7 +80,6 @@ body, html{
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color: black;
         margin-top:-12vh;
        
     }
@@ -113,5 +112,18 @@ body, html{
         flex-wrap: wrap;
         align-items: center;
         text-align: center;
+    }
+}
+@media only screen and (max-height: 600px) {
+    .qrcode{
+        overflow: hidden;
+        border-radius: 25px;
+        width: 70%;
+        height: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top:-12vh;
+       
     }
 }
